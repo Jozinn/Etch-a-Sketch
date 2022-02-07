@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+.reset {
+    margin: 50px auto 0 auto;
+}
+#container {
+    display: flex;
+    height: 690px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+.row {
+    display: flex;
+    flex: auto;
+    width: 690px;
+}
+.square {
+    border: 1px solid black;
+    flex: auto;
+}    
+.color {
+    background-color: crimson;
+}
